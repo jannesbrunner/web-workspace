@@ -50,6 +50,7 @@ header label:hover {
     background-color: #120103;
     background-position: 50% 50%;
     background-size: cover;
+    transition: left 0s .75s;
 }
 
 .slide-one {
@@ -71,6 +72,7 @@ header label:hover {
 [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
+    transition: left .65s ease-out;
 }
 
 
