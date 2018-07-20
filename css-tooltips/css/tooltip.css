@@ -17,6 +17,7 @@
 .tool:focus::after {
     opacity: 1;
     z-index: 100;
+    transform: scale(1) translateY(0);
 }
 
 .tool::before {
@@ -26,6 +27,15 @@
     bottom: 100%;
     margin-left: -.5em;
     content: "";
+    /* smoothing */
+    transform: scale(.6) translateY(-90%);
+    transition: all .65s cubic-bezier(.85, -0.18, .31, 1.26), opacity .65s .5s;
+}
+
+ /* smoothing */
+.tool:hover::before,
+.tool:focus::before {
+    transition-delay: .2s;
 }
 
 .tool::after {
@@ -37,4 +47,15 @@
     padding: 1em;
     margin-left: -8.75em;
     content: attr(data-tip);
+    /* smoothing */
+    transform: scale(.6) translateY(50%);
+    transition: all .65s cubic-bezier(.84, -.18, .31, 1.26) .2s;
 }
+
+.tool:hover::after,
+.tool:focus::after {
+    transition-delay: 0s;
+}
+
+
+
