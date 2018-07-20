@@ -18,3 +18,22 @@
     opacity: 1;
     z-index: 100;
 }
+
+.tool::before {
+    border-style: solid;
+    border-width: 1em .75em 0 .75em;
+    border-color: #3E474F transparent transparent transparent;
+    margin-left: -.5em;
+    content: "";
+}
+
+.tool::after {
+    background:  #3E474F;
+    border-radius: .25em;
+    bottom: 180%;
+    color: #EDEFF0;
+    width: 17.5em;
+    padding: 1em;
+    margin-left: -8.75em;
+    content: attr(data-tip);
+}
