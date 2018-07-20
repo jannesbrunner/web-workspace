@@ -1,6 +1,8 @@
 # Pure CSS Tooltips
 
  No JavaScript invovled. Hover over the green span text elements in index.html!
+ 
+ <img src="css-tooltips-screenshot.png">
 
 To create a tooltip just add the ```tool``` class and the ```data-tip``` attribute with your tooltip message.
 Finally set the ```tabindex``` to a number. 
