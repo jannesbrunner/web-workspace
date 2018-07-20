@@ -2,7 +2,33 @@
   Main Styles
 --------------------------- */
 
+.main-header {
+  padding-top: 2em;
 
+}
+
+.site-logo {
+  width: 110px;
+}
+
+.nav {
+  margin-top: 1.5em;
+}
+
+.nav a {
+  display: block;
+  color: #797e83;
+  font-size: 1.125em;
+  font-weight: 300;
+  text-align: center;
+  padding: .4em;
+  border-bottom: 1px solid #ebecec;
+}
+
+.nav a:hover {
+  color: #0b0b0b;
+  border-bottom-color: #52bab3;
+}
 
 /* --------------------------
   Media Queries
