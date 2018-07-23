@@ -11,6 +11,7 @@ Code (snippets) about HTML / CSS / JavaScript and other web related stuff.
 ------------------
 * [**css-responsive-nav**](css-responsive-nav) : a responsive website navigation, using CSS media queries and flexbox layout. 
 ![css responsive nav screenshot](css-responsive-nav/css-responsive-nav-screenshot.png)
+------------------
 * [**css-blending-**](css-responsive-nav) : A little demonstration of CSS blend modes. They let us blend an element's background layer with another layer.
 ![css responsive nav screenshot](css-blending-screenshot.png)
 
