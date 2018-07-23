@@ -1,0 +1,78 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+body > div {
+	max-width: 440px;
+	position: absolute;
+	right: 25%;
+	top: 25%;
+}
+
+/* BLEND MODES */
+
+body {
+	font: 1em/1.4 'Helvetica Neue', sans-serif;
+	color: #eee;
+	background: url('falls.jpg') no-repeat, radial-gradient(#6de590, #e67478);
+	background-size: cover;
+	text-shadow: 1px 1px #000000;
+}
+
+
+h1 {
+	font-size: 12em;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: -2rem;
+	color: #6b845d;
+}
+
+span:nth-child(2) {
+	color: #801b3a;
+}
+
+span:nth-child(3) {
+	color: #164d67;
+}
+
+h1 span {
+	mix-blend-mode: screen;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.button {
+	background: gray;
+	cursor: pointer;
+	border: 2px solid;
+	border-radius: 6px;
+	border-color: #000000;
+	opacity: .7;
+	padding: .2em;
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
