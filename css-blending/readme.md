@@ -4,8 +4,8 @@ This can create some really interesting effects, especially when combined with
 gradients and multiple stacked background pictures and colors. <br><br>
 Hover over the buttons in `index.html` to see some blending in action
  
-![css-blending-screenshot.png]
- 
+![screenshot](css-blending-screenshot.png "index.html screenshot")
+
 ### Targeting the buttons
 
 ```javascript
